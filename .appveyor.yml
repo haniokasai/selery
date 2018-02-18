@@ -185,7 +185,3 @@ on_success:
   
 on_failure:
   - set RESULT=1
-  
-on_finish:
-  - powershell -Command Invoke-WebRequest https://gist.githubusercontent.com/Kripth/e570f715c27d0a345619e2ea881ed97d/raw/ -OutFile update.d
-  - rdmd update.d
