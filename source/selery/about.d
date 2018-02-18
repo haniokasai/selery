@@ -148,7 +148,7 @@ const struct Software {
 }
 
 /// Protocols supported by the software.
-enum uint[] supportedBedrockProtocols = [137, 141, 150, 160];
+enum uint[] supportedBedrockProtocols = [137, 141, 150, 160, 200, 201];
 
 /// ditto
 enum uint[] supportedJavaProtocols = [210, 315, 316, 335, 338, 340];
@@ -160,7 +160,7 @@ enum newestBedrockProtocol = supportedBedrockProtocols[$-1];
 enum newestJavaProtocol = supportedJavaProtocols[$-1];
 
 /// Latest protocols (latest version e.g 1.2.*).
-enum uint[] latestBedrockProtocols = [137, 141, 150, 160];
+enum uint[] latestBedrockProtocols = [137, 141, 150, 160, 200, 201];
 
 /// ditto
 enum uint[] latestJavaProtocols = [335, 338, 340];
