@@ -16,11 +16,9 @@ dependency "sel-hncom" version="~>8.0.0"
 dependency "sel-nbt" version="~>2.0.6"
 dependency "sel-net" version="~>0.2.1"
 dependency "sel-server" version="~>0.3.0"
-#{"version": "~master", "git": "https://github.com/sel-project/soupply"}
-#dependency "soupply" version="~>1.0.0"
-
-"soupply": "git+ssh://git@github.com:sel-project/soupply.git#master"
-
+{"version": "~master", "git": "https://github.com/sel-project/soupply"}
+//dependency "soupply" version="~>1.0.0"
+dependency "soupply": "git+ssh://git@github.com:sel-project/soupply.git#master"
 dependency "string-transform-d" version="~>1.0.0"
 dependency "terminal" version="~>0.1.0"
 
